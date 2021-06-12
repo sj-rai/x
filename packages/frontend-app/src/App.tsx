@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
+import { Button } from 'carbon-components-react'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
+          <Button>yay!</Button>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
         <a
