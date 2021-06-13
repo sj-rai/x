@@ -7,6 +7,14 @@
   text-align: center;
 }
 
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+//.mainContent {
+//  flex-direction: column;
+//}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
