@@ -1,0 +1,21 @@
+.mapContainer {
+  position: absolute;
+  /* position: relative; */
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  /* z-index: 2; */
+  z-index: -1;
+}
+.sidebarStyle {
+  display: inline-block;
+  position: relative;
+  top: 4rem;
+  left: 2rem;
+  margin: 12px;
+  background-color: #404040;
+  color: #ffffff;
+  z-index: 2 !important;
+  padding: 6px;
+}

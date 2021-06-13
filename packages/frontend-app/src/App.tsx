@@ -1,6 +1,9 @@
 import React from "react";
 import "./App.scss";
 import { Nav } from "./components/Nav/Nav";
+import Map from "./components/Map/Map";
+import { Router, Route } from "react-router";
+import { createBrowserHistory } from "history";
 // function App() {
 //   return (
 //     <div className="App">
@@ -26,6 +29,11 @@ import { Nav } from "./components/Nav/Nav";
 const App = () => (
     <div className="nav">
         <Nav />
+        <Router history={createBrowserHistory()}>
+            <Route path="/map" component={Map} />
+            {/* <Route path="/info" component={<ScrollArea>{Card}</ScrollArea>}/> */}
+            {/*<Route path="/info" component={Card} />*/}
+        </Router>
     </div>
 );
 

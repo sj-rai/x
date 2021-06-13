@@ -12,14 +12,14 @@ export class Nav extends React.Component<any, any> {
         return (
             <div className="container">
                 <Header aria-label="IBM Platform Name">
-                    <HeaderName href="#" prefix="IBM">
+                    <HeaderName href="/" prefix="IBM">
                         [X]
                     </HeaderName>
                     <HeaderNavigation aria-label="IBM [X]">
                         <HeaderMenuItem href="#">
                             Share Food Items/leftovers
                         </HeaderMenuItem>
-                        <HeaderMenuItem href="#">
+                        <HeaderMenuItem href="map">
                             Excess Food Map
                         </HeaderMenuItem>
                         <HeaderMenuItem href="#">Link 3</HeaderMenuItem>
