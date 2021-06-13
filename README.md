@@ -1,4 +1,4 @@
-#[Project Name TBD]
+# [Project Name TBD]
 
 Repository for CFC 2021 Project
 
@@ -27,7 +27,7 @@ Monorepo setup using yarn workspaces.
 +-- yarn.lock
 ```
 
-###Local development Setup
+### Local development Setup
 
 - Run `yarn` at the root of the project to install dependencies of both frontend-app and backend-app.
 
