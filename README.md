@@ -12,7 +12,7 @@ Make sure yarn is installed and is accessible from command line.
 
 [You can get it here](https://yarnpkg.com/lang/en/docs/install/)
 
-## Project structure
+### Project structure
 
 This Project has a monorepo setup for frontend-app and backend-app
 
@@ -41,7 +41,7 @@ Monorepo setup using yarn workspaces.
 
   `yarn start`
   
-  This will start the frontend application in <localhost:3000>
+  This will start the frontend application in <http://localhost:3000>
 
 
 - For Backend,
@@ -52,4 +52,4 @@ Monorepo setup using yarn workspaces.
 
   `yarn start`
 
-  This will start express server on <localhost:3001>
+  This will start express server on <http://localhost:3001>
