@@ -16,10 +16,14 @@ export class Nav extends React.Component<any, any> {
                         [X]
                     </HeaderName>
                     <HeaderNavigation aria-label="IBM [X]">
-                        <HeaderMenuItem href="#">Link 1</HeaderMenuItem>
-                        <HeaderMenuItem href="#">Link 2</HeaderMenuItem>
+                        <HeaderMenuItem href="#">
+                            Share Food Items/leftovers
+                        </HeaderMenuItem>
+                        <HeaderMenuItem href="#">
+                            Excess Food Map
+                        </HeaderMenuItem>
                         <HeaderMenuItem href="#">Link 3</HeaderMenuItem>
-                        <HeaderMenuItem href="#">Link 4</HeaderMenuItem>
+                        <HeaderMenuItem href="#">Info</HeaderMenuItem>
                     </HeaderNavigation>
                 </Header>
             </div>
