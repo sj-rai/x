@@ -28,17 +28,18 @@ import { createBrowserHistory } from "history";
 
 const App = () => (
     <div className={"main"}>
-        <div className="nav">
-            <Nav />
-            <Router history={createBrowserHistory()}>
-                <Route path="/map" component={Map} />
-                {/* <Route path="/info" component={<ScrollArea>{Card}</ScrollArea>}/> */}
-                {/*<Route path="/info" component={Card} />*/}
-            </Router>
-        </div>
-        <div className={"mainContent"}>
-            <h1>Hello!~. Anything in home page goes in this div</h1>
-        </div>
+        <Router history={createBrowserHistory()}>
+            <Route path="/map" component={Map} />
+            <div className="nav">
+                <Nav />
+            </div>
+            <Route exact path="/">
+                <div className={"mainContent"}>
+                    <h1>Hello!~. Anything in home page goes in this div</h1>
+                    {/*<h1>Maybe make a seperate component?</h1>*/}
+                </div>
+            </Route>
+        </Router>
     </div>
 );
 
